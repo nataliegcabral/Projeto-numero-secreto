@@ -26,15 +26,15 @@ body {
     margin: 20px;
 }
 
-header > h1 {
+h1 {
     color: var(--cor1);
     font-size: 1.5em;
-    
     margin: 30px;
 }
 
-main > h2 {
+h2 {
     margin-bottom: 20px;
+    
 }
 
 .mensagem {
@@ -53,5 +53,27 @@ main > h2 {
 .material-icons {
     display: inline;
     font-size: 30px;
+}
+
+h3 {
+    font-size: 2em;
+    margin: 50px;
+}
+
+.btn {
+    padding: 10px;
+    margin: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--cor1);
+    color: var(--cor2);
+    font-size: 0.8em;
+    cursor: pointer;
+    transition: all .2s;
+    box-shadow: 2px 2px 6px #001a2359;
+}
+
+.btn:hover {
+    transform: scale(1.1);
 }
 
